@@ -1,0 +1,8 @@
+1.  Verify new release version branch was cut.
+       Before running script validate the next branch cut by viewing release.plist.  Note the release amd version number.
+       After the scxript has completed, Verifty a new release version branch has been cut in Github or by fetching from remote.
+       Verify the branch cut starts from SHA in script output.
+2.  Verify release files are updated for next branch cut.
+        Verify the Release Version number (minor number) has been incremented in file release.plist.
+        Verify the Release name has not changed in file release.plist
+        Verify the Release Version numbers match in release.plist and releng/release_info.csv
